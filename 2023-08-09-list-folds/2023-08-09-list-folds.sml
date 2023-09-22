@@ -1,6 +1,4 @@
-(* Yash Mittal || 1121fun sample_check a = if (a>=5) then true
- 51                 else false
-01054*)
+(* Yash Mittal || 112101054*)
 
 (*
 Q1.
