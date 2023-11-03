@@ -1,10 +1,10 @@
 //Q4
 
-pub struct A  {
+pub struct CopyStruct  {
     pub name : u32
 }
 
-impl Drop for A
+impl Drop for CopyStruct
 {
     fn drop (&mut self)
     {
@@ -15,7 +15,7 @@ impl Drop for A
 
 fn main ()
 {
-    let x = A { name : 10 };
+    let x = CopyStruct { name : 10 };
 
     {
 	let y = x;
